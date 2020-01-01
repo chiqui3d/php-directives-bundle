@@ -14,22 +14,10 @@ Requirements
 
 Installation
 ------------
-Test repository, currently in the process of being finalized and released to packagist, while you can install it by following the next steps:
 
-Add to composer.json repositories:
-
-    "repositories": [
-        {
-          "type": "vcs",
-          "url": "https://github.com/chiqui3d/php-directives-bundle.git"
-        }
-      ],
-
-Add to require packages:
-
-    "chiqui3d/php-directives-bundle": "dev-master",
+    composer require chiqui3d/php-directives-bundle
       
-Add class to config/bundles.php
+Make sure the bundle appears in config/bundles.php
 
     PHPDirectivesBundle\PHPDirectivesBundle::class => ['all' => true],
 
