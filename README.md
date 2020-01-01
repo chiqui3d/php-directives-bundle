@@ -1,6 +1,6 @@
-php-directives-bundle
+PHPDirectivesBundle
 ======================
-A small and simple Bundle in Symfony to add directives to PHP
+A small and simple Bundle in Symfony to add PHP directives for your project
 
 Directives documentation
 ======================
@@ -19,13 +19,15 @@ Installation
 
 Configuration
 -------------
-config/packages/php_directives.yaml
-
-    php_directives:
-        php:
-            date.timezone: Europe/Madrid
-        locale:
-            LC_MONETARY: es_ES
+```config/packages/php_directives.yaml```
+    
+```yaml
+php_directives:
+    php:
+        date.timezone: Europe/Madrid
+    locale:
+        LC_MONETARY: es_ES
+```
 
 License
 =======
