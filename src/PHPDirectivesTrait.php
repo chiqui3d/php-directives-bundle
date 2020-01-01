@@ -1,6 +1,6 @@
 <?php
 
-namespace Charles\PHPDirectivesBundle;
+namespace PHPDirectivesBundle;
 
 
 trait PHPDirectivesTrait

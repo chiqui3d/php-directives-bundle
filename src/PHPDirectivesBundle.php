@@ -1,8 +1,8 @@
 <?php
 
-namespace Charles\PHPDirectivesBundle;
+namespace PHPDirectivesBundle;
 
-use Charles\PHPDirectivesBundle\DependencyInjection\PHPDirectivesBundleExtension;
+use PHPDirectivesBundle\DependencyInjection\PHPDirectivesBundleExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\Yaml\Yaml;
 

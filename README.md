@@ -31,7 +31,7 @@ Add to require packages:
       
 Add class to config/bundles.php
 
-    Charles\PHPDirectivesBundle\PHPDirectivesBundle::class => ['all' => true],
+    PHPDirectivesBundle\PHPDirectivesBundle::class => ['all' => true],
 
 Configuration
 -------------

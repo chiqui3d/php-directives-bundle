@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Charles\\PHPDirectivesBundle\\": "src/"
+            "PHPDirectivesBundle\\": "src/"
         }
     },
     "extra": {
