@@ -17,7 +17,7 @@ Installation
 
     composer require chiqui3d/php-directives-bundle
       
-Make sure the bundle appears in config/bundles.php
+Check that the bundle appears in config/bundles.php
 
     PHPDirectivesBundle\PHPDirectivesBundle::class => ['all' => true],
 
