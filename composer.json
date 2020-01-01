@@ -4,7 +4,7 @@
     "license": "MIT",
     "keywords": ["symfony","php directives","symfony php directives","symfony php directives","symfony php options", "symfony php extensions"],
     "description": "A small and simple Bundle in Symfony to add PHP directives for your project",
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "authors": [
         {
             "name": "Charles"
