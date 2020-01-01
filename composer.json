@@ -23,13 +23,9 @@
         "sort-packages": true
     },
     "autoload": {
-        "exclude-from-classmap": ["/Tests/", "/test/", "/tests/"],
         "psr-4": {
             "Charles\\PHPDirectivesBundle\\": "src/"
         }
-    },
-    "archive": {
-        "exclude": ["vendor/*"]
     },
     "extra": {
         "branch-alias": {
