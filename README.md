@@ -15,7 +15,11 @@ Requirements
 Installation
 ------------
 
-    composer require chiqui3d/php-directives-bundle:@dev
+    composer require chiqui3d/php-directives-bundle
+
+Add class to config/bundles.php
+
+    Charles\PHPDirectivesBundle\PHPDirectivesBundle::class => ['all' => true],
 
 Configuration
 -------------

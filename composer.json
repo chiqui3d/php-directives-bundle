@@ -5,7 +5,6 @@
     "keywords": ["symfony","php directives","symfony php directives","symfony php directives","symfony php options", "symfony php extensions"],
     "description": "A small and simple Bundle in Symfony to add PHP directives for your project",
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "authors": [
         {
             "name": "Charles"
@@ -34,7 +33,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.1.x-dev"
         }
     }
 }
