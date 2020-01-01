@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "keywords": ["symfony","php directives","symfony php directives","symfony php directives","symfony php options", "symfony php extensions"],
-    "description": "This bundle is for configure directives in PHP",
+    "description": "A small and simple Bundle in Symfony to add PHP directives for your project",
     "authors": [
         {
             "name": "Charles"
