@@ -1,0 +1,39 @@
+{
+    "name": "chiqui3d/php-directives-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["symfony","php directives","symfony php directives","symfony php directives","symfony php options", "symfony php extensions"],
+    "description": "This bundle is for configure directives in PHP",
+    "authors": [
+        {
+            "name": "Jose Carlos",
+            "homepage": "https://www.clicksolution.es"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/config": "^4.4|^5.0",
+        "symfony/yaml": "^4.4|^5.0",
+        "symfony/dependency-injection": "^4.4|^5.0"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "exclude-from-classmap": ["/Tests/", "/test/", "/tests/"],
+        "psr-4": {
+            "Charles\\PHPDirectivesBundle\\": "src/"
+        }
+    },
+    "archive": {
+        "exclude": ["vendor/*"]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
+    }
+}
