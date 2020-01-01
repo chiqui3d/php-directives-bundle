@@ -6,8 +6,7 @@
     "description": "This bundle is for configure directives in PHP",
     "authors": [
         {
-            "name": "Jose Carlos",
-            "homepage": "https://www.clicksolution.es"
+            "name": "Charles"
         }
     ],
     "require": {
