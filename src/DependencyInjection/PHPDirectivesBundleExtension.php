@@ -5,9 +5,6 @@ namespace Charles\PHPDirectivesBundle\DependencyInjection;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 
-/**
- * @author Charles
- */
 class PHPDirectivesBundleExtension extends Extension
 {
 

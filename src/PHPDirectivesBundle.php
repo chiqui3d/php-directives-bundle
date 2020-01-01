@@ -6,15 +6,13 @@ use Charles\PHPDirectivesBundle\DependencyInjection\PHPDirectivesBundleExtension
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\Yaml\Yaml;
 
-/**
- * @author Jose Carlos
- */
+
 class PHPDirectivesBundle extends Bundle
 {
 
   use PHPDirectivesTrait;
 
-  public function boot()
+  public function boot(): void
   {
     parent::boot();
 
