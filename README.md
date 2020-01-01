@@ -21,9 +21,11 @@ Check that the bundle appears in config/bundles.php
 
     PHPDirectivesBundle\PHPDirectivesBundle::class => ['all' => true],
 
-Configuration
+Adding directives
 -------------
 ```config/packages/php_directives.yaml```
+
+These directives will be loaded into any part of your project.
     
 ```yaml
 php_directives:
